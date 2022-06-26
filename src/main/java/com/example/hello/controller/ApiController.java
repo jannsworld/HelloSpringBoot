@@ -15,4 +15,10 @@ public class ApiController {
         return "hello SpringBoot!";
 
     }
+
+    @GetMapping("/home")
+    public String home() {
+
+        return "This is home!";
+    }
 }
