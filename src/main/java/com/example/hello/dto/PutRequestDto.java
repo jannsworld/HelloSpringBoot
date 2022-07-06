@@ -10,7 +10,6 @@ public class PutRequestDto {
 
     private String name;
     private int age;
-
     private List<CarDto> carList;
 
     public String getName() {
